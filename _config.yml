@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Tae Sung Park"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"
   bio              : "**Yes!** PTS"
   location         : "Seoul, Korea"
   email            : 
