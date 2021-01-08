@@ -5,9 +5,6 @@ categories:
 # layout: default
 ---
 
-
-인페인팅 기법들이 발전해온 과정
-
 > Barnes가 patch-match 알고리즘 제안
 
 복원할 영역 주변에서 가장 적합한 패치를 찾아서 영역을 채운다.
