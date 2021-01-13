@@ -1,7 +1,7 @@
 ---
 title: "논문 검색하는 Tip!"
 categories:
-    - JARA
+    - Tips
 # layout: default
 ---
 
