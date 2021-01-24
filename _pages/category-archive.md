@@ -1,5 +1,5 @@
 ---
-title: "제목"
+title: "Posts by Category"
 layout: categories
 permalink: /categories/
 ---
