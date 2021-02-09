@@ -12,7 +12,7 @@ categories:
 어떻게 풀 것인가?
 ---
 
-1. 이중 반복문으로 발생 가능한 모든 조합을 구한다.
+(1) 이중 반복문으로 발생 가능한 모든 조합을 구한다.
 
 ```python
 def solution(gems):
@@ -39,7 +39,7 @@ def solution(gems):
     return answer[0]
 ```
 
-2. 중복을 허용하지 않는 집합 자료형의 특징을 활용한다.
+(2) 중복을 허용하지 않는 집합 자료형의 특징을 활용한다.
 
 ```python
 def solution(gems):
@@ -66,7 +66,7 @@ def solution(gems):
     return answer
 ```
 
-3. 중복을 허용하지 않는 사전 자료형의 특징을 활용한다.
+(3) 중복을 허용하지 않는 사전 자료형의 특징을 활용한다.
 
 ```python
 def solution(gems):
