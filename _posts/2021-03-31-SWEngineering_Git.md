@@ -1,7 +1,7 @@
 ---
 title: "Git"
 categories:
-    - 소프트웨어 공학
+    - SWEngineering
 # layout: default
 ---
 > 본 포스팅은 Scott Chacon 저자의 'Pro Git'을 공부하며 정리한 노트입니다.
