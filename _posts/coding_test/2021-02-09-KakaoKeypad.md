@@ -1,7 +1,7 @@
 ---
 title: "[프로그래머스] 2020 카카오 인턴십 키패드 누르기"
 categories:
-    - Programmers
+    - Coding Test
 # layout: default
 ---
 문제

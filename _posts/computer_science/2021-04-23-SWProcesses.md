@@ -1,7 +1,7 @@
 ---
 title: "[소프트웨어 공학] 2. Software Processes"
 categories:
-    - SWEngineering
+    - Computer Science
 # layout: default
 ---
 > 본 포스팅은 이기훈 교수님의 소프트웨어 공학 수업을 듣고 공부하며 정리한 노트입니다.
