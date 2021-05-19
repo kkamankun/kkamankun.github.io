@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "Today I Learned"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Tae Sung Park"
+name                     : "Taesung Park"
 description              : "Yes! PTS"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -93,7 +93,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Tae Sung Park"
+  name             : "Taesung Park"
   avatar           : "/assets/images/bio-photo.jpg"
   bio              : "**Yes!** PTS"
   location         : "Seoul, Korea"
