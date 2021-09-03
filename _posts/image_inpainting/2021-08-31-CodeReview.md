@@ -42,6 +42,20 @@ unfold(): tensor의 dimension size들을 조절하여 원하는 텐서를 얻을
 
 torch.index_select(): 텐서 중에 특정 값만 조회
 
+torch.split(): 하나의 텐서를 분리하기
+
+torch.cat(): 텐서들을 결합하기
+
+view: 텐서의 원소의 개수는 유지하면서 크기를 변경
+
+permute: 텐서의 축을 변경
+
+np.extend(): 리스트에서는 append를 사용하면 리스트 자체를 원소로 넣기 때문에 '[ ]' shape까지 같이 원소로 추가된다. 따라서 extend를 사용한다.
+
+np.tile(): 어레이를 지정한 함수 횟수만큼 반복
+
+torch.expand(*sizes): 특정 텐서의 sizes 차원의 데이터를 반복하여 생성. 단, 개수가 1인 차원에만 적용 가능.
+
 머신러닝 이해
 ---
 
