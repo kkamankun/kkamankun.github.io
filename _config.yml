@@ -99,9 +99,9 @@ author:
   location         : "Seoul, Korea"
   email            : 
   links:
-    - label: "pts322@kw.ac.kr"
+    - label: "pts322@korea.ac.kr"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:pts322@kw.ac.kr"
+      url: "mailto:pts322@korea.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
