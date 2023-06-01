@@ -79,4 +79,4 @@ Distillation loss는 detector의 neck 부분(예: Feature Pyramid Network)에서
 
 보다 구체적인 정보를 위해서는 논문 링크를 참고해주세요. 다음은 논문 링크입니다.
 
-https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Focal_and_Global_Knowledge_Distillation_for_Detectors_CVPR_2022_paper.html
+[CVPR 2022 open access](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Focal_and_Global_Knowledge_Distillation_for_Detectors_CVPR_2022_paper.html){: target="_blank"}

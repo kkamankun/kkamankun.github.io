@@ -23,6 +23,6 @@ $M_s(F)=\sigma(f^{7*7}([AvgPool(F);MaxPool(F)]))$
 
 참고문헌
 
-[1] https://arxiv.org/abs/1807.06521
+[1] [arXiv](https://arxiv.org/abs/1807.06521){: target="_blank"}
 
-[2] https://deep-learning-study.tistory.com/666
+[2] [딥러닝 공부방](https://deep-learning-study.tistory.com/666){: target="_blank"}

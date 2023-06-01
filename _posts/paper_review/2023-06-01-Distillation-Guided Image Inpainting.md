@@ -47,4 +47,4 @@ $H$는 구멍(Hole) 영역을 뜻하며, $t_i$는 메타 트워크로 0과 1 사
 
 보다 구체적인 정보를 위해서는 논문 링크를 참고해주세요. 다음은 논문 링크입니다.
 
-https://ieeexplore.ieee.org/document/9710869
+[IEEE Xplore](https://ieeexplore.ieee.org/document/9710869){: target="_blank"}

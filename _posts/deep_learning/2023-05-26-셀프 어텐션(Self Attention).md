@@ -48,4 +48,4 @@ $Attention(Q,K,V)=softmax(\frac{QK^T}{\sqrt{d_K}})V$
 
 참고문헌
 
-[1] https://ratsgo.github.io/nlpbook/docs/language_model/transformers/
+[1] [ratsgo’s blog](https://ratsgo.github.io/nlpbook/docs/language_model/transformers/){: target="_blank"}
