@@ -10,7 +10,7 @@ Image data augmentation은 딥러닝 모델의 상용화를 위해 학습 데이
 
 첫 번째, basic 접근법에는 image manipulation, image erasing, image mix가 있습니다. Image manipulation은 rotation, flipping, cropping 등과 같은 image 변형과 관련된 기법입니다. Image erasing은 image 내부의 하나 또는 그 이상의 지역을 지우는 기법입니다. Image mix는 두 개 또는 그 이상의 전체 image나 일부 지역을 혼합하는 기법입니다.
 
-![Image Manipulation](https://github.com/developerTae/developerTae.github.io/assets/46318721/c8746890-7fa0-43d0-a903-7e85ec20b02d)
+![Image Manipulation](https://github.com/developerTae/developerTae.github.io/assets/46318721/c8746890-7fa0-43d0-a903-7e85ec20b02d){: width="70%"",height="70%""}
 
 두 번째, advanced 접근법에는 auto augment, feature augmentation, deep generative models가 있습니다. 더 향상된 성능을 얻을 수 있는 augmentation 방법을 자동으로 찾는 기법입니다. Augmentation은 노이즈가 있고 추론에 부정적인 영향을 끼칠 수 있다는 단점이 있습니다. 입력 공간에만 augmentation을 적용하던 것을 넘어서, 학습된 feature 공간에 변형을 수행하는 feature augmentation이 있습니다. Data augmentation의 목표는 분포로부터 샘플들을 그려내는 것입니다.
 
