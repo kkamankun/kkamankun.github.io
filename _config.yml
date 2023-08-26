@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Today I Learned"
+title                    : "까만쿤 기술 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Taesung Park"
@@ -99,9 +99,6 @@ author:
   location         : "Seoul, Korea"
   email            : 
   links:
-    - label: "pts322@korea.ac.kr"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:pts322@korea.ac.kr"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
