@@ -13,10 +13,6 @@ Student와 teacher model은 동일한 구조를 갖고 있으며, knowledge는 f
 
 MaskCLIP의 $E_I$는 Vision Transformer (ViT)를 사용합니다. Visual encoder의 학습을 위해 외부의 teacher를 가져오는 것이 아니라, student와 같은 구조를 갖는 mean teacher model을 사용하여 self-distillation을 수행합니다. Teacher의 parameters는 student로부터 exponential moving averages (EMA) 입니다. 
 
-$$
-\bar\theta_t=\alpha\bar\theta_{t-1}+(1-\alpha)\theta_t
-$$
-
 $\alpha$는 smoothing updates를 위한 hyper-parameter입니다. 먼저 input image $I$가 EMA model $\bar E_I$ (teacher model)에 입력되고, 랜덤하게 masking 한 뒤에 $E_I$ (student model)에 입력합니다. Masking은 input image의 75% 비중으로 설정합니다.
 
 Masked image modeling을 통해 local patch representation을 학습할 수 있습니다. 본 논문에서 제안하는 masked self-distillation을 통해 더 semantic 한 local patch representation을 학습할 수 있다고 합니다.
