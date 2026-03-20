@@ -9,7 +9,7 @@ use_math: true
 
 Student와 teacher model은 동일한 구조를 갖고 있으며, knowledge는 full image로부터 masked image로 증류됩니다. 다양한 실험을 통해 제안하는 masked self-distillation의 효과를 검증했습니다.
 
-![MaskCLIP](https://github.com/kkamankun/kkamankun.github.io/assets/46318721/faa4dd73-d5e9-452e-8e27-7ee2cc7979b1)
+![MaskCLIP](https://github.com/TheRamji/TheRamji.github.io/assets/46318721/faa4dd73-d5e9-452e-8e27-7ee2cc7979b1)
 
 MaskCLIP의 $E_I$는 Vision Transformer (ViT)를 사용합니다. Visual encoder의 학습을 위해 외부의 teacher를 가져오는 것이 아니라, student와 같은 구조를 갖는 mean teacher model을 사용하여 self-distillation을 수행합니다. Teacher의 parameters는 student로부터 exponential moving averages (EMA) 업데이트합니다.
 
