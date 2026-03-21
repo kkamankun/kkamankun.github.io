@@ -4,6 +4,70 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+// 1. 테마 기본 설정 및 스킨 임포트
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; 
+@import "minimal-mistakes"; 
+
+// 2. 외부 폰트 임포트 (Noto Sans KR)
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+/* -------------------------------------------------------
+   3. 커스텀 스타일 정의 (여기서 글자 크기를 조절합니다)
+   ------------------------------------------------------- */
+
+body {
+  /* 폰트 적용 및 기본 크기 조절 */
+  font-family: "Noto Sans KR", sans-serif !important;
+  
+  /* 기본 글자 크기 조절 (기본 1rem에서 살짝 줄인 0.95rem) */
+  font-size: 0.95rem; 
+  
+  /* 가독성을 위한 줄 간격 (기본보다 조금 더 넓게) */
+  line-height: 1.45;
+}
+
+/* 포스트 본문 영역 세부 조절 */
+.page__content {
+  font-size: 1.05em; /* body 대비 본문만 약간 더 크게 유지 (선택사항) */
+  
+  /* 본문 내 문단 간격 조절 */
+  p {
+    margin-bottom: 1.3em;
+  }
+
+  /* 제목(h1~h3) 크기가 본문 대비 너무 크다면 아래 수치로 미세 조정 */
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.2rem; }
+}
+
+/* 사이드바 글자 크기 조절 (프로필 정보 등) */
+.sidebar {
+  font-size: 0.85rem;
+}
+
+/* 코드 블록 글자 크기 (개발 포스팅 시 중요) */
+code, kbd, pre, samp {
+  font-size: 0.85em;
+}
+
+/* 표(Table) 내부 글자 크기 및 스타일 조절 */
+.page__content table {
+  font-size: 0.9rem;    /* 본문 크기(0.95rem)와 동일하게 맞춤 */
+  word-break: keep-all;  /* 한글 단어가 중간에 끊기지 않게 설정 */
+  
+  th, td {
+    padding: 0.75em;     /* 셀 안의 여백을 조금 늘려 가독성 확보 */
+  }
+  
+  /* 표 안의 코드 블록 크기도 너무 작다면 조절 */
+  code {
+    font-size: 0.9em;
+  }
+}
+
+.page__content table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
