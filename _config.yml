@@ -114,6 +114,12 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/taesung-park-312a81204"
+    - label: "Inflearn"
+      icon: "fas fa-fw fa-hands-helping"
+      url: "https://inf.run/NArQX"
 
 # Site Footer
 footer:
