@@ -20,7 +20,7 @@ body {
   font-family: "Noto Sans KR", sans-serif !important;
   
   /* 기본 글자 크기 조절 (기본 1rem에서 살짝 줄인 0.95rem) */
-  font-size: 0.95rem; 
+  font-size: 0.9rem; 
   
   /* 가독성을 위한 줄 간격 (기본보다 조금 더 넓게) */
   line-height: 1.45;
@@ -36,9 +36,9 @@ body {
   }
 
   /* 제목(h1~h3) 크기가 본문 대비 너무 크다면 아래 수치로 미세 조정 */
-  h1 { font-size: 1.6rem; }
-  h2 { font-size: 1.4rem; }
-  h3 { font-size: 1.2rem; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.3rem; }
+  h3 { font-size: 1.1rem; }
 }
 
 /* 사이드바 글자 크기 조절 (프로필 정보 등) */
@@ -70,4 +70,8 @@ code, kbd, pre, samp {
   display: block;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+.highlight pre code {
+  font-size: 14px !important;
 }
