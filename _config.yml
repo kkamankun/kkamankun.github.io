@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "The람쥐 기술 블로그"
+title                    : "TS Logic: Vision Engineering Note"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "임베디드 리눅스, 비전 처리, 카메라 Bring-up 전문 기술 저장소"
 name                     : "Taesung Park"
 description              : "Software Engineer at LG Electronics Vehicle Solution"
 url                      : "https://TheRamji.github.io"
@@ -93,9 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Taesung Park"
-  avatar           : "/assets/images/bio-photo.png"
-  bio              : "Software Engineer"
+  name             : "TS Logic"
+  avatar           : "/assets/images/ts-logic-profile.webp"
+  bio              : "Embedded Vision & Software Engineer"
   location         : "Seoul, Korea"
   email            : 
   links:
